@@ -1,26 +1,34 @@
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+BarCampNola 8 Website Repo
 
+Tech Stack:
 
-Hi there! Welcome to Cloud9 IDE!
+This site is generated with Jekyll (www.jekyllrb.com), and you'll need that installed to work on it.
+Jekyll has a Ruby dependency. 
 
-To get you started, we included a small hello world application.
+Windows: using either a Linux VM or Cloud9 IDE is going to be your
+best bet. Ruby on Windows is the devil.
 
-1) Open the hello-world.html file
+Mac - install Ruby however you heathens do it.
 
-2) Click on the Preview button to open a live preview pane
+Ubuntu - 
+    
+    sudo apt-get install ruby
+    sudo apt-get install gem
+    gem install jekyll
 
-3) Make some changes to the file, save, watch the preview, and have fun!
+Cloud9:
+    
+    gem install jekyll
 
-Happy coding!
-The Cloud9 IDE team
+Welcome, team!
 
+People
 
-## Support & Documentation
+Steve Price - Website Lead
+    GH: @themooserooster
+    Twitter: @themooserooster
+    Email: steveprice@mooserooster.com
+    
+John Clark - Graphic Design Lead
 
-Visit http://docs.c9.io for documentation, or http://support.c9.io for support.
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+Joe Ellis - BarCampNola GitHub Organization Admin
