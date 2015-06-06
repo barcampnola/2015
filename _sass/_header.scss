@@ -1,6 +1,6 @@
 #header {
     position: fixed;
-    height: 100px;
+    height: 90px;
     background-color: #111;
     margin: 0px;
     width: 100vw;
@@ -13,10 +13,39 @@
 
     .logo-small {
         width: 200px;
-        margin: 10px 5px;
+        margin: 5px 15px;
     }
 
     nav {
+        font-family: Avengeance;
+        font-size: 2em;
         margin-left: 30px;
+
+        a {
+            display: inline-block;
+            margin: 0px 10px;
+            transition: color .5s;
+
+            &:hover {
+                color: #F55;
+                transition: color .5s;
+            }
+        }
+
+        a.register {
+            position: absolute;
+            top: 18%;
+            right: 25px;
+            color: red;
+            font-size: 1.3em;
+            border: 2px solid white;
+            border-radius: 5px;
+            padding: 15px 15px 5px 10px;
+            transition: color .5s;
+
+            &:hover {
+                color: gold;
+            }
+        }
     }
 }
