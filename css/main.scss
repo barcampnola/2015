@@ -47,6 +47,19 @@ h2, h3 {
     margin: 20px 0px;
 }
 
+#lightning_canvas {
+  pointer-events: none;
+}
+
+.thor{
+  height: 300px;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
 h2 {
     font-size: 1.8em;
 }
