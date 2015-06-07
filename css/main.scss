@@ -42,14 +42,29 @@ a, a:visited {
     text-decoration: none;
 }
 
-h2 {
+h2, h3 {
     font-family: Komika;
-    font-size: 1.5em;
     margin: 20px 0px;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.5em;
 }
 
 p {
     margin: 20px 0px;
+}
+
+section {
+    margin-top: 50px;
+
+    &:first-of-type {
+        margin-top: 0px;
+    }
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
