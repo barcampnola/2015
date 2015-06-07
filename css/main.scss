@@ -18,6 +18,18 @@ a, a:visited {
     }
 }
 
+#lightning_canvas {
+  pointer-events: none;
+}
+
+.thor{
+  height: 300px;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
