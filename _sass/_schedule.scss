@@ -1,3 +1,42 @@
 #schedule {
-    
+
+    .days {
+        display: flex;
+        flex-direction: row;
+
+        .day-one, .day-two {
+            flex-grow: 1;
+            margin: 20px;
+        }
+
+        li {
+            display: flex;
+
+            .time, .event {
+                display: block;
+                vertical-align: middle;
+                font-size: 1.5em;
+            }
+
+            .time {
+                font-family: Komika;
+                color: gold;
+                background-color: #111;
+                border-radius: 5px;
+                width: 80px;
+                padding: 3px 5px 5px;
+                border: 1px solid #f9f9f9;
+                text-align: center;
+            }
+
+            .event {
+                font-weight: bold;
+                background: rgba(255, 255, 255, .3);
+                flex-grow: 1;
+            }
+        }
+
+
+    }
+
 }

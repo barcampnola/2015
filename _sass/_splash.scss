@@ -1,3 +1,57 @@
 #splash {
-    
+    padding: 20px 0px 0px 0px;
+    font-size: 2.1em;
+
+    .logo-container {
+        position: relative;
+        margin: 23% auto 0px;
+        width: 100%;
+        max-width: 922px;
+
+
+        .looming-uncon, .main-logo {
+            width: 100%;
+        }
+
+        .looming-uncon {
+            position: absolute;
+            top: -70%;
+            z-index: -1;
+        }
+
+        .main-logo {
+
+        }
+    }
+
+    nav {
+    }
+
+    a {
+        display: block;
+        margin: 20px auto;
+        transition: color .5s;
+        font-family: Avengeance;
+        background-color: #222;
+        border: 2px solid white;
+        border-radius: 10px;
+        padding: 15px 15px 5px 10px;
+        width: 250px;
+        text-align: center;
+
+        &:hover {
+            color: #F55;
+            transition: color .5s;
+        }
+    }
+
+    a.register {
+        color: gold;
+        transition: color .5s;
+
+        &:hover {
+            color: red;
+        }
+    }
+
 }
