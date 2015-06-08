@@ -4,31 +4,31 @@
   description: Tulane University is one of the nation's most prestigious educational and research institutions. Founded in 1834 in New Orleans, Tulane offers degrees in architecture, business, law, liberal arts, medicine, public health and tropical medicine, the sciences and engineering, and social work.
 
 - name: Apptitude
-  smallLogoPath: aksdjf
-  largeLogoPath: asdkn
+  smallLogoPath: /assets/sponsors/tulane.png
+  largeLogoPath: /assets/sponsors/big/tulane.png
   description: Apptitude helps businesses and organizations just like yours launch amazing apps and websites for iOS, Android, and wearables.
 
 - name: Mark Anderson
-  smallLogoPath: aoopop
-  largeLogoPath: hdahfd
-  description: asdjfjj
+  smallLogoPath: /assets/sponsors/tulane.png
+  largeLogoPath: /assets/sponsors/big/tulane.png
+  description: Testing, testing!
 
 - name: GE
-  smallLogoPath: aoopop
-  largeLogoPath: hdahfd
-  description: asdjfjj
+  smallLogoPath: /assets/sponsors/tulane.png
+  largeLogoPath: /assets/sponsors/big/tulane.png
+  description: Testing, testing!
 
 - name: Surge
-  smallLogoPath: aoopop
-  largeLogoPath: hdahfd
-  description: asdjfjj
+  smallLogoPath: /assets/sponsors/tulane.png
+  largeLogoPath: /assets/sponsors/big/tulane.png
+  description: Testing, testing!
 
 - name: FlatStack
-  smallLogoPath: aoopop
-  largeLogoPath: hdahfd
-  description: asdjfjj
+  smallLogoPath: /assets/sponsors/tulane.png
+  largeLogoPath: /assets/sponsors/big/tulane.png
+  description: Testing, testing!
 
 - name: Hop & Jaunt
-  smallLogoPath: aoopop
-  largeLogoPath: hdahfd
-  description: asdjfjj
+  smallLogoPath: /assets/sponsors/tulane.png
+  largeLogoPath: /assets/sponsors/big/tulane.png
+  description: Testing, testing!

@@ -1,25 +1,81 @@
 #sponsors {
 
-    .sponsors-menu {
+    .sponsors-container {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
-        max-width: 600px;
+        justify-content: center;
+        margin: 40px 0px;
 
-        .sponsor-icon {
-            width: 100px;
-            height: 100px;
-            background: rgba(255, 255, 255, .3);
-            border-radius: 5px;
-            margin: 15px;
-            text-align: center;
-            cursor: pointer;
+        .sponsor-spotlight {
 
-            img {
-                max-width: 100px;
+
+            .large-logo {
+
+            }
+
+            .none-selected {
+                font-family: Avengeance;
+                font-size: 20em;
+                width: 300px;
+                background: rgba(255,255,255, 0.3);
+                text-align: center;
+                height: 300px;
+                border-radius: 10px;
+            }
+
+            .description {
+
             }
         }
 
+        .sponsors-menu {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            max-width: 600px;
+            justify-content: flex-start;
+            align-items: flex-start;
+
+            .sponsor-icon {
+                width: 100px;
+                height: 100px;
+                background: rgba(255, 255, 255, .3);
+                border-radius: 5px;
+                margin: 15px;
+                text-align: center;
+                cursor: pointer;
+
+                &:hover {
+                    transition: background-color .5s;
+                }
+
+                img {
+                    max-width: 100px;
+                }
+            }
+        }
     }
 
+    .sponsor-package {
+        text-align: center;
+
+        a {
+            color: gold;
+            display: block;
+            margin: 20px auto;
+            transition: color .5s;
+            font-family: Avengeance;
+            background-color: #222;
+            border: 2px solid white;
+            border-radius: 10px;
+            padding: 15px 15px 5px 10px;
+            width: 330px;
+            font-size: 1.8em;
+
+            &:hover {
+                color: red;
+                transition: color .5s;
+            }
+        }
+    }
 }
