@@ -21,6 +21,17 @@
         draw = true;
     });
 
+
+    $(window).load(function() {
+         $('.stan-lee').raptorize();
+    });
+
+    $(window).scroll(function() {
+       if($(window).scrollTop() + $(window).height() == $(document).height()) {
+           alert("bottom!");
+       }
+    });
+
     $(document).on('mouseleave', ".after-party", function() {
         $(".thor").attr("src", "/assets/images/Bario-1.png")
         draw = false;
