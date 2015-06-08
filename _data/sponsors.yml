@@ -1,14 +1,34 @@
-- name: Tulane University
+- name: Tulane School of Engineering
   smallLogoPath: /assets/sponsors/tulane.png
   largeLogoPath: /assets/sponsors/big/tulane.png
   description: Tulane University is one of the nation's most prestigious educational and research institutions. Founded in 1834 in New Orleans, Tulane offers degrees in architecture, business, law, liberal arts, medicine, public health and tropical medicine, the sciences and engineering, and social work.
 
-- name: blah
+- name: Apptitude
   smallLogoPath: aksdjf
   largeLogoPath: asdkn
-  description: adsdk
+  description: Apptitude helps businesses and organizations just like yours launch amazing apps and websites for iOS, Android, and wearables.
 
-- name: blah2
+- name: Mark Anderson
+  smallLogoPath: aoopop
+  largeLogoPath: hdahfd
+  description: asdjfjj
+
+- name: GE
+  smallLogoPath: aoopop
+  largeLogoPath: hdahfd
+  description: asdjfjj
+
+- name: Surge
+  smallLogoPath: aoopop
+  largeLogoPath: hdahfd
+  description: asdjfjj
+
+- name: FlatStack
+  smallLogoPath: aoopop
+  largeLogoPath: hdahfd
+  description: asdjfjj
+
+- name: Hop & Jaunt
   smallLogoPath: aoopop
   largeLogoPath: hdahfd
   description: asdjfjj
