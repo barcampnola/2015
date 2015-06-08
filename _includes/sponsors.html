@@ -1,3 +1,14 @@
 <section id="sponsors">
     <h2>Our Uncanny Sponsors</h2>
+
+    <div class="sponsors-menu">
+        {% for s in site.data.sponsors %}
+
+        <div class="sponsor-icon" data-large-logo="{{s.largeLogoPath}}" data-description="{{s.description}}">
+            <img src="{{s.smallLogoPath}}" alt="{{s.name}}"/>
+        </div>
+
+        {% endfor %}
+    </div>
+
 </section>

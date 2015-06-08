@@ -1,3 +1,48 @@
 #schedule {
-    
+
+    .days {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .day-one, .day-two {
+            flex-grow: 1;
+            margin: 20px;
+            min-width: 390px;
+            max-width: 450px;
+        }
+
+        li {
+            display: flex;
+            flex-direction: row;
+            margin: 5px 0px;
+
+            .time, .event {
+                display: block;
+                vertical-align: middle;
+                font-size: 1.5em;
+            }
+
+            .time {
+                font-family: Komika;
+                color: gold;
+                background-color: #111;
+                border-radius: 5px;
+                width: 80px;
+                padding: 5px 5px 7px;
+                border: 1px solid #f9f9f9;
+                text-align: center;
+            }
+
+            .event {
+                font-weight: bold;
+                background: rgba(255, 255, 255, .3);
+                flex-grow: 1;
+            }
+        }
+
+
+    }
+
 }
