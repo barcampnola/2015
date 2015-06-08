@@ -4,31 +4,31 @@
   description: Tulane University is one of the nation's most prestigious educational and research institutions. Founded in 1834 in New Orleans, Tulane offers degrees in architecture, business, law, liberal arts, medicine, public health and tropical medicine, the sciences and engineering, and social work.
 
 - name: Apptitude
-  smallLogoPath: /assets/sponsors/tulane.png
-  largeLogoPath: /assets/sponsors/big/tulane.png
+  smallLogoPath: /assets/sponsors/apptitude.png
+  largeLogoPath: /assets/sponsors/big/apptitude.png
   description: Apptitude helps businesses and organizations just like yours launch amazing apps and websites for iOS, Android, and wearables.
 
 - name: Mark Anderson
-  smallLogoPath: /assets/sponsors/tulane.png
-  largeLogoPath: /assets/sponsors/big/tulane.png
+  smallLogoPath: /assets/sponsors/mark-anderson.png
+  largeLogoPath: /assets/sponsors/big/mark-anderson.png
   description: Testing, testing!
 
 - name: GE
-  smallLogoPath: /assets/sponsors/tulane.png
-  largeLogoPath: /assets/sponsors/big/tulane.png
+  smallLogoPath: /assets/sponsors/ge.png
+  largeLogoPath: /assets/sponsors/big/ge.png
   description: Testing, testing!
 
 - name: Surge
-  smallLogoPath: /assets/sponsors/tulane.png
-  largeLogoPath: /assets/sponsors/big/tulane.png
+  smallLogoPath: /assets/sponsors/surge.png
+  largeLogoPath: /assets/sponsors/big/surge.png
   description: Testing, testing!
 
 - name: FlatStack
-  smallLogoPath: /assets/sponsors/tulane.png
-  largeLogoPath: /assets/sponsors/big/tulane.png
+  smallLogoPath: /assets/sponsors/flat-stack.png
+  largeLogoPath: /assets/sponsors/big/flat-stack.png
   description: Testing, testing!
 
 - name: Hop & Jaunt
-  smallLogoPath: /assets/sponsors/tulane.png
-  largeLogoPath: /assets/sponsors/big/tulane.png
-  description: Testing, testing!
+  smallLogoPath: /assets/sponsors/hop-jaunt.png
+  largeLogoPath: /assets/sponsors/big/hop-jaunt.png
+  description: Hop & Jaunt are a New Orleans based creative agency crafting brand stories and creating better products through design. 
