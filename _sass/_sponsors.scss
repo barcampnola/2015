@@ -1,3 +1,25 @@
 #sponsors {
-    
+
+    .sponsors-menu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 600px;
+
+        .sponsor-icon {
+            width: 100px;
+            height: 100px;
+            background: rgba(255, 255, 255, .3);
+            border-radius: 5px;
+            margin: 15px;
+            text-align: center;
+            cursor: pointer;
+
+            img {
+                max-width: 100px;
+            }
+        }
+
+    }
+
 }
