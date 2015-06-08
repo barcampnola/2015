@@ -24,6 +24,15 @@
     lt.hide();
   });
 
+  $(window).load(function() {
+       $('.stan-lee').raptorize();
+  });
+
+  $(window).scroll(function() {
+     if($(window).scrollTop() + $(window).height() == $(document).height()) {
+         alert("bottom!");
+     }
+  });
 //get viewport dimensions
 var viewport = function(){
 	var viewport = new Object();
