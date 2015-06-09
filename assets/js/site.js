@@ -21,6 +21,16 @@
         draw = true;
     });
 
+    $('a.normal', '#splash nav').each(function (i, el) {
+        var $el = $(el);
+        $(el).on('click', function (e) {
+            e.preventDefault();
+            var section = $($el.attr('href'));
+            $('html, body').animate({
+                scrollTop: section.offset().top
+            }, 1000);
+        })
+    });
 
     $(window).load(function() {
          $('.stan-lee').raptorize();
@@ -28,7 +38,7 @@
 
     $(window).scroll(function() {
        if($(window).scrollTop() + $(window).height() == $(document).height()) {
-           alert("bottom!");
+           //alert("bottom!");
        }
     });
 

@@ -31,7 +31,7 @@
 
 			//Raptor Vars
 			var raptorImageMarkup = '<img id="elRaptor" style="display: none; width: 300px;" src="/assets/images/stan-lee.png" />'
-			var raptorAudioMarkup = '<audio id="elRaptorShriek" preload="auto"><source src="/assets/js/lee_nuff_said.mp3" /></audio>';
+			var raptorAudioMarkup = '<audio id="elRaptorShriek" preload="auto"><source src="/assets/sounds/lee_nuff_said.mp3" /></audio>';
 			var locked = false;
 
 			//Append Raptor and Style
