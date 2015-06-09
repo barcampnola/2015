@@ -36,11 +36,22 @@
          $('.stan-lee').raptorize();
     });
 
-    $(window).scroll(function() {
-       if($(window).scrollTop() + $(window).height() == $(document).height()) {
-           //alert("bottom!");
-       }
+
+    var showHideHeader = function () {
+        var header = $('#header');
+        var splash = $('#splash');
+
+        if($(window).scrollTop() > splash.offset().top + splash.height()) {
+            console.log("past splash");
+            if (!header.is(':visible')) header.show(500);
+        } else {
+            if (header.is(':visible')) header.hide(500);
+        }
+    };
+    $(window).on('scroll', function() {
+        showHideHeader();
     });
+    showHideHeader();
 
     $(document).on('mouseleave', ".after-party", function() {
         $(".thor").attr("src", "/assets/images/Bario-1.png")
