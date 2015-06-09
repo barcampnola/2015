@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 
     .thor-container {
         box-sizing: content-box;
@@ -14,7 +15,8 @@
             rgba(200, 200, 200, 0),
             rgba(200, 200, 200, 0)
         );
-
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
     }
 
     .copy-text {
