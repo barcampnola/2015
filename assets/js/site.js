@@ -13,12 +13,20 @@
         }
     }, 100)
 
-    $(document).on('mouseenter', ".after-party", function(e) {
+
+    // Thor / Trumpet animation
+    $(document).on('mouseenter', ".thor-container", function(e) {
         $(".thor").attr("src", "/assets/images/Bario-2.png")
         var ob = randomSide();
         offset = $(".thor").offset();
         lt.show(ob.startX, ob.startY, offset.left + 112, offset.top + 32);
         draw = true;
+    });
+
+    $(document).on('mouseleave', ".thor-container", function() {
+        $(".thor").attr("src", "/assets/images/Bario-1.png")
+        draw = false;
+        lt.hide();
     });
 
     $('a.normal', '#splash nav').each(function (i, el) {
@@ -53,11 +61,7 @@
     });
     showHideHeader();
 
-    $(document).on('mouseleave', ".after-party", function() {
-        $(".thor").attr("src", "/assets/images/Bario-1.png")
-        draw = false;
-        lt.hide();
-    });
+
 
     //get viewport dimensions
     var viewport = function() {
