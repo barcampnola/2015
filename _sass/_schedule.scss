@@ -120,4 +120,8 @@
         }
     }
 
+  .after-party {
+    // 'fix' a bug that causes scrollbar to appear
+    height: 305px;
+  }
 }

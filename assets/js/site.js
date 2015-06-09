@@ -1,4 +1,9 @@
 (function() {
+    //generate random number between min and max
+    var rand = function(min, max) {
+        return Math.floor(Math.random() * (max - min)) + min;
+    }
+
     var lt = new lightning({
         glow: false
     });
@@ -10,6 +15,8 @@
             var ob = randomSide();
             offset = $(".thor").offset();
             lt.show(ob.startX, ob.startY, offset.left + 112, offset.top + 32);
+            num = rand(1, 5);
+            $(".thor").parent().css("background-image", "url('/assets/images/boom-bg" + num + ".png')");
         }
     }, 100)
 
@@ -21,6 +28,15 @@
         offset = $(".thor").offset();
         lt.show(ob.startX, ob.startY, offset.left + 112, offset.top + 32);
         draw = true;
+        num = rand(1, 5);
+        $(".thor").parent().css("background-image", "url('/assets/images/boom-bg" + num + ".png')");
+    });
+
+    $(document).on('mouseleave', ".after-party", function() {
+        $(".thor").attr("src", "/assets/images/Bario-1.png")
+        draw = false;
+        lt.hide();
+        $(".thor").parent().css("background-image", "")
     });
 
     $(document).on('mouseleave', ".thor-container", function() {
@@ -44,7 +60,7 @@
          $('.stan-lee').raptorize();
     });
 
-
+    // ----- show / hide header on scroll ----- //
     var showHideHeader = function () {
         var header = $('#header');
         var splash = $('#splash');
@@ -60,8 +76,7 @@
         showHideHeader();
     });
     showHideHeader();
-
-
+    // ----- //
 
     //get viewport dimensions
     var viewport = function() {
@@ -84,11 +99,6 @@
         return viewport;
     };
 
-
-    //generate random coordinates at one of the sides
-    var rand = function(min, max) {
-        return Math.floor(Math.random() * (max - min)) + min;
-    }
 
     function randomSide() {
         var v = viewport();
@@ -127,5 +137,37 @@
 
 
     //lt.hide();
+
+    $(document).on('click', function(e) {
+        var cursorX = e.pageX;
+        var cursorY = e.pageY;
+
+        var randomImage = Math.floor(Math.random() * 6) + 1;
+        var randomAngle = Math.floor(Math.random() * (41)) - 20;
+
+        var powImage = $("<img>")
+            .attr("src", "/assets/images/pow_" + randomImage + ".png")
+            .attr("class", "pow-image")
+            .attr("width", 300)
+            .attr("height", 300)
+            .css("top", cursorY - 150)
+            .css("left", cursorX - 150)
+            .css("opacity", 1)
+            .css("transform", "rotate(" + randomAngle + "deg)")
+
+        $("body").append(powImage);
+
+        powImage.animate({
+            top: "-=100"
+        }, 200, function() {
+            powImage.animate({
+                opacity: "0"
+            }, 100, function() {
+                powImage.remove();
+            });
+        });
+
+
+    });
 
 }).call()
