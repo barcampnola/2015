@@ -119,6 +119,21 @@
           background-image: url("/assets/images/superhero-background-dark.jpg");
         }
     }
-
+    
+    .thor-container {
+        float: left;
+        background-size: 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+        box-sizing: content-box;
+        padding-left: 20px;
+        width: 270px;
+        background-image: radial-gradient(
+            ellipse farthest-corner
+            rgba(200, 200, 200, 0.83),
+            rgba(200, 200, 200, 0),
+            rgba(200, 200, 200, 0)
+        );
+    }
 
 }

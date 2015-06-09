@@ -22,7 +22,7 @@
 
 
     // Thor / Trumpet animation
-    $(document).on('mouseenter', ".thor-container", function(e) {
+    $(document).on('mouseenter', ".after-party", function(e) {
         $(".thor").attr("src", "/assets/images/Bario-2.png")
         var ob = randomSide();
         offset = $(".thor").offset();
