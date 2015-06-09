@@ -1,5 +1,5 @@
 #schedule {
-    padding-top: 50px;
+    padding-top: 100px;
 
     .days {
         display: flex;
@@ -120,8 +120,5 @@
         }
     }
 
-  .after-party {
-    // 'fix' a bug that causes scrollbar to appear
-    height: 305px;
-  }
+
 }

@@ -45,7 +45,8 @@
         lt.hide();
     });
 
-    $('a.normal', '#splash nav').each(function (i, el) {
+
+    $('#splash nav a.normal, #header a.normal').each(function (i, el) {
         var $el = $(el);
         $(el).on('click', function (e) {
             e.preventDefault();
@@ -134,9 +135,6 @@
         ob.startY = startY;
         return ob;
     }
-
-
-    //lt.hide();
 
     $(document).on('click', function(e) {
         var cursorX = e.pageX;
