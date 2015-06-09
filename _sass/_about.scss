@@ -55,8 +55,9 @@
 }
 
 .video-iframe {
+  margin: 0 auto;
   display: inline-block;
-  width:  430px;
+  width:  800px;
 
   @media screen and (max-width: 1000px) {
     width: 80%;
@@ -71,6 +72,6 @@
 }
 
 .video {
-  height: 315px;
+  height: 500px;
   width: 100%;
 }
