@@ -39,11 +39,6 @@
         $(".thor").parent().css("background-image", "")
     });
 
-    $(document).on('mouseleave', ".thor-container", function() {
-        $(".thor").attr("src", "/assets/images/Bario-1.png")
-        draw = false;
-        lt.hide();
-    });
 
 
     $('#splash nav a.normal, #header a.normal').each(function (i, el) {
