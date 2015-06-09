@@ -16,17 +16,17 @@
 - name: GE
   smallLogoPath: /assets/sponsors/ge.png
   largeLogoPath: /assets/sponsors/big/ge.png
-  description: Testing, testing!
+  description: GE is about designing, developing and deploying the next generation of software, computer security and infrastructure technologies.
 
 - name: Surge
   smallLogoPath: /assets/sponsors/surge.png
   largeLogoPath: /assets/sponsors/big/surge.png
-  description: Testing, testing!
+  description: Surge's mission is to provide high-end software development & consulting services to their clients that are unmatched in the industry.
 
 - name: FlatStack
   smallLogoPath: /assets/sponsors/flat-stack.png
   largeLogoPath: /assets/sponsors/big/flat-stack.png
-  description: Testing, testing!
+  description: FlatStack is a global software development company with offices in New Orleans, Louisiana and Kazan, Russia
 
 - name: Hop & Jaunt
   smallLogoPath: /assets/sponsors/hop-jaunt.png
