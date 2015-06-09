@@ -1,4 +1,9 @@
 (function() {
+    //generate random number between min and max
+    var rand = function(min, max) {
+        return Math.floor(Math.random() * (max - min)) + min;
+    }
+
     var lt = new lightning({
         glow: false
     });
@@ -10,6 +15,8 @@
             var ob = randomSide();
             offset = $(".thor").offset();
             lt.show(ob.startX, ob.startY, offset.left + 112, offset.top + 32);
+            num = rand(1, 5);
+            $(".thor").parent().css("background-image", "url('/assets/images/boom-bg" + num + ".png')");
         }
     }, 100)
 
@@ -19,6 +26,15 @@
         offset = $(".thor").offset();
         lt.show(ob.startX, ob.startY, offset.left + 112, offset.top + 32);
         draw = true;
+        num = rand(1, 5);
+        $(".thor").parent().css("background-image", "url('/assets/images/boom-bg" + num + ".png')");
+    });
+
+    $(document).on('mouseleave', ".after-party", function() {
+        $(".thor").attr("src", "/assets/images/Bario-1.png")
+        draw = false;
+        lt.hide();
+        $(".thor").parent().css("background-image", "")
     });
 
     $('a.normal', '#splash nav').each(function (i, el) {
@@ -42,12 +58,6 @@
        }
     });
 
-    $(document).on('mouseleave', ".after-party", function() {
-        $(".thor").attr("src", "/assets/images/Bario-1.png")
-        draw = false;
-        lt.hide();
-    });
-
     //get viewport dimensions
     var viewport = function() {
         var viewport = new Object();
@@ -69,11 +79,6 @@
         return viewport;
     };
 
-
-    //generate random coordinates at one of the sides
-    var rand = function(min, max) {
-        return Math.floor(Math.random() * (max - min)) + min;
-    }
 
     function randomSide() {
         var v = viewport();

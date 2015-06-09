@@ -58,6 +58,14 @@ h2, h3 {
   height: 300px;
 }
 
+.superhero-background {
+  width: 300px;
+  float: left;
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .clearfix {
   overflow: auto;
   zoom: 1;
