@@ -1,4 +1,9 @@
 (function() {
+    //generate random number between min and max
+    var rand = function(min, max) {
+        return Math.floor(Math.random() * (max - min)) + min;
+    }
+
     var lt = new lightning({
         glow: false
     });
@@ -10,15 +15,34 @@
             var ob = randomSide();
             offset = $(".thor").offset();
             lt.show(ob.startX, ob.startY, offset.left + 112, offset.top + 32);
+            num = rand(1, 5);
+            $(".thor").parent().css("background-image", "url('/assets/images/boom-bg" + num + ".png')");
         }
     }, 100)
 
+
+    // Thor / Trumpet animation
     $(document).on('mouseenter', ".after-party", function(e) {
         $(".thor").attr("src", "/assets/images/Bario-2.png")
         var ob = randomSide();
         offset = $(".thor").offset();
         lt.show(ob.startX, ob.startY, offset.left + 112, offset.top + 32);
         draw = true;
+        num = rand(1, 5);
+        $(".thor").parent().css("background-image", "url('/assets/images/boom-bg" + num + ".png')");
+    });
+
+    $(document).on('mouseleave', ".after-party", function() {
+        $(".thor").attr("src", "/assets/images/Bario-1.png")
+        draw = false;
+        lt.hide();
+        $(".thor").parent().css("background-image", "")
+    });
+
+    $(document).on('mouseleave', ".thor-container", function() {
+        $(".thor").attr("src", "/assets/images/Bario-1.png")
+        draw = false;
+        lt.hide();
     });
 
     $('a.normal', '#splash nav').each(function (i, el) {
@@ -36,17 +60,23 @@
          $('.stan-lee').raptorize();
     });
 
-    $(window).scroll(function() {
-       if($(window).scrollTop() + $(window).height() == $(document).height()) {
-           //alert("bottom!");
-       }
-    });
+    // ----- show / hide header on scroll ----- //
+    var showHideHeader = function () {
+        var header = $('#header');
+        var splash = $('#splash');
 
-    $(document).on('mouseleave', ".after-party", function() {
-        $(".thor").attr("src", "/assets/images/Bario-1.png")
-        draw = false;
-        lt.hide();
+        if($(window).scrollTop() > splash.offset().top + splash.height()) {
+            console.log("past splash");
+            if (!header.is(':visible')) header.show(500);
+        } else {
+            if (header.is(':visible')) header.hide(500);
+        }
+    };
+    $(window).on('scroll', function() {
+        showHideHeader();
     });
+    showHideHeader();
+    // ----- //
 
     //get viewport dimensions
     var viewport = function() {
@@ -69,11 +99,6 @@
         return viewport;
     };
 
-
-    //generate random coordinates at one of the sides
-    var rand = function(min, max) {
-        return Math.floor(Math.random() * (max - min)) + min;
-    }
 
     function randomSide() {
         var v = viewport();
@@ -112,5 +137,37 @@
 
 
     //lt.hide();
+
+    $(document).on('click', function(e) {
+        var cursorX = e.pageX;
+        var cursorY = e.pageY;
+
+        var randomImage = Math.floor(Math.random() * 6) + 1;
+        var randomAngle = Math.floor(Math.random() * (41)) - 20;
+
+        var powImage = $("<img>")
+            .attr("src", "/assets/images/pow_" + randomImage + ".png")
+            .attr("class", "pow-image")
+            .attr("width", 300)
+            .attr("height", 300)
+            .css("top", cursorY - 150)
+            .css("left", cursorX - 150)
+            .css("opacity", 1)
+            .css("transform", "rotate(" + randomAngle + "deg)")
+
+        $("body").append(powImage);
+
+        powImage.animate({
+            top: "-=100"
+        }, 200, function() {
+            powImage.animate({
+                opacity: "0"
+            }, 100, function() {
+                powImage.remove();
+            });
+        });
+
+
+    });
 
 }).call()

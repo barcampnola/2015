@@ -4,6 +4,8 @@
     width: 100%;
     padding-top: 1px;
     position: relative;
+    box-shadow: 0px 100px 100px #111;
+    border-bottom: 7px solid #333;
 
     &::before {
         display: block;
@@ -51,6 +53,7 @@
 
     nav {
         position: relative;
+        padding-bottom: 50px;
     }
 
     a {
