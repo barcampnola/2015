@@ -2,43 +2,52 @@
   smallLogoPath: /assets/sponsors/tulane.png
   largeLogoPath: /assets/sponsors/big/tulane.png
   description: Tulane University is one of the nation's most prestigious educational and research institutions. Founded in 1834 in New Orleans, Tulane offers degrees in architecture, business, law, liberal arts, medicine, public health and tropical medicine, the sciences and engineering, and social work.
+  website: http://tulane.edu/
 
 - name: Apptitude
   smallLogoPath: /assets/sponsors/apptitude.png
   largeLogoPath: /assets/sponsors/big/apptitude.png
   description: Apptitude helps businesses and organizations just like yours launch amazing apps and websites for iOS, Android, and wearables.
+  website: https://apptitude.io/
 
 - name: Mark Anderson
   smallLogoPath: /assets/sponsors/mark-anderson.png
   largeLogoPath: /assets/sponsors/big/mark-anderson.png
   description: Testing, testing!
+  website:
 
 - name: GE
   smallLogoPath: /assets/sponsors/ge.png
   largeLogoPath: /assets/sponsors/big/ge.png
   description: GE is about designing, developing and deploying the next generation of software, computer security and infrastructure technologies.
+  website: http://www.gecapital.com/en/
 
 - name: Surge
   smallLogoPath: /assets/sponsors/surge.png
   largeLogoPath: /assets/sponsors/big/surge.png
   description: Surge's mission is to provide high-end software development & consulting services to their clients that are unmatched in the industry.
+  website: http://www.surgeforward.com/
 
 - name: FlatStack
   smallLogoPath: /assets/sponsors/flat-stack.png
   largeLogoPath: /assets/sponsors/big/flat-stack.png
   description: FlatStack is a global software development company with offices in New Orleans, Louisiana and Kazan, Russia
+  website: http://www.flatstack.com/
 
 - name: Hop & Jaunt
   smallLogoPath: /assets/sponsors/hop-jaunt.png
   largeLogoPath: /assets/sponsors/big/hop-jaunt.png
   description: Hop & Jaunt is a New Orleans based creative agency crafting brand stories and creating better products through design.
+  website: http://www.hopandjaunt.com/
 
 - name: 4.0 Schools
   smallLogoPath: /assets/sponsors/40logo.png
   largeLogoPath: /assets/sponsors/big/40logo.png
   description: 4.0 schools is a community of entrepreneurs, educators, and families that believes school can be dramatically better for every child.
+  website: http://4pt0.org/
 
 - name: Federated Sample
   smallLogoPath: /assets/sponsors/fedsample.png
   largeLogoPath: /assets/sponsors/big/fedsample.png
-  description: 
+  description:
+  website: http://www.federatedsample.com/

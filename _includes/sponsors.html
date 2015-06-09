@@ -19,7 +19,7 @@
             {% for s in site.data.sponsors %}
 
             <div class="sponsor-icon" data-large-logo="{{s.largeLogoPath}}" data-description="{{s.description}}">
-                <img src="{{s.smallLogoPath}}" alt="{{s.name}}"/>
+                <a href="{{s.website}}"><img src="{{s.smallLogoPath}}" alt="{{s.name}}"/></a>
             </div>
 
             {% endfor %}
