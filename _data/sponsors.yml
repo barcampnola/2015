@@ -14,7 +14,7 @@
   smallLogoPath: /assets/sponsors/mark-anderson.png
   largeLogoPath: /assets/sponsors/big/mark-anderson.png
   description: Testing, testing!
-  website:
+  website: https://www.youtube.com/watch?v=qfxUt9UM0nc
 
 - name: GE
   smallLogoPath: /assets/sponsors/ge.png
