@@ -51,3 +51,9 @@
   largeLogoPath: /assets/sponsors/big/fedsample.png
   description:
   website: http://www.federatedsample.com/
+
+- name: Susco Solutions
+  smallLogoPath: /assets/sponsors/susco.png
+  largeLogoPath: /assets/sponsors/big/susco.png
+  description: Software Solutions for Business Process Improvement
+  website: http://www.suscosolutions.com/
