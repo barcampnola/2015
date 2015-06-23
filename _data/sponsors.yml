@@ -57,3 +57,22 @@
   largeLogoPath: /assets/sponsors/big/susco.png
   description: Software Solutions for Business Process Improvement
   website: http://www.suscosolutions.com/
+
+- name: LispCast
+  smallLogoPath: /assets/sponsors/big/LispCast-Logo-light.png
+  largeLogoPath: /assets/sponsors/big/LispCast-Logo-light.png
+  description: 
+  website: http://www.lispcast.com/
+
+- name: Iconoclast Labs
+  smallLogoPath: /assets/sponsors/big/iconoclast-labs.png
+  largeLogoPath: /assets/sponsors/big/iconoclast-labs.png
+  description: Amazing Apps
+  website: http://www.iconoclastlabs.com/
+
+- name: LOOKFAR
+  smallLogoPath: /assets/sponsors/big/lookfarlogo.png
+  largeLogoPath: /assets/sponsors/big/lookfarlogo.png
+  description: An idea acceleration company
+  website: http://lookfar.com/
+    
