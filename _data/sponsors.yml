@@ -75,4 +75,45 @@
   largeLogoPath: /assets/sponsors/big/lookfarlogo.png
   description: An idea acceleration company
   website: http://lookfar.com/
-    
+  
+- name: GNO, Inc
+  smallLogoPath: /assets/sponsors/big/gno-inc.jpg
+  largeLogoPath: /assets/sponsors/big/gno-inc.jpg
+  description:
+  website: http://gnoinc.org/
+
+- name: Olark
+  smallLogoPath: /assets/sponsors/big/olark.png
+  largeLogoPath: /assets/sponsors/big/olark.png
+  description:
+  website: https://www.olark.com/
+
+- name: GitHub
+  smallLogoPath: /assets/sponsors/big/GitHub_Logo.png
+  largeLogoPath: /assets/sponsors/big/GitHub_Logo.png
+  description:
+  website: https://github.com/
+
+- name: LaunchPad
+  smallLogoPath: /assets/sponsors/big/launchpad.jpg
+  largeLogoPath: /assets/sponsors/big/launchpad.jpg
+  description:
+  website: http://www.lp.co/
+
+- name: TurboSquid
+  smallLogoPath: /assets/sponsors/big/Squid-Logo.jpg
+  largeLogoPath: /assets/sponsors/big/Squid-Logo.jpg
+  description:
+  website: http://www.turbosquid.com/
+
+- name: DDD
+  smallLogoPath: /assets/sponsors/big/DDD.jpg
+  largeLogoPath: /assets/sponsors/big/DDD.jpg
+  description:
+  website: http://downtownnola.com/
+
+- name: Kickboard
+  smallLogoPath: /assets/sponsors/big/kickboard_logo_web.png
+  largeLogoPath: /assets/sponsors/big/kickboard_logo_web.png
+  description:
+  website: http://www.kickboardforteachers.com/
