@@ -117,3 +117,21 @@
   largeLogoPath: /assets/sponsors/kickboard_logo_web_small.png
   description:
   website: http://www.kickboardforteachers.com/
+
+- name: Continga Soft
+  smallLogoPath: /assets/sponsors/contingasoft.png
+  largeLogoPath: /assets/sponsors/contingasoft.png
+  description:
+  website:
+
+- name: iSeatz
+  smallLogoPath: /assets/sponsors/iseatz.png
+  largeLogoPath: /assets/sponsors/iseatz.png
+  description:
+  website:
+
+- name: Revelry
+  smallLogoPath: /assets/sponsors/revelry.png
+  largeLogoPath: /assets/sponsors/revelry.png
+  description:
+  website:
