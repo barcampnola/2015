@@ -135,3 +135,15 @@
   largeLogoPath: /assets/sponsors/revelry.png
   description:
   website:
+
+- name: Scandy
+  smallLogoPath: /assets/sponsors/scandy.jpg
+  largeLogoPath: /assets/sponsors/scandy.jpg
+  description:
+  website:
+
+- name: Entrescan
+  smallLogoPath: /assets/sponsors/entrescan.png
+  largeLogoPath: /assets/sponsors/entrescan.png
+  description:
+  website:
