@@ -122,28 +122,28 @@
   smallLogoPath: /assets/sponsors/contingasoft.png
   largeLogoPath: /assets/sponsors/contingasoft.png
   description:
-  website:
+  website: http://www.cotingasoft.com/
 
 - name: iSeatz
   smallLogoPath: /assets/sponsors/iseatz.png
   largeLogoPath: /assets/sponsors/iseatz.png
   description:
-  website:
+  website: http://www.iseatz.com/
 
 - name: Revelry
   smallLogoPath: /assets/sponsors/revelry.png
   largeLogoPath: /assets/sponsors/revelry.png
   description:
-  website:
+  website: http://revelry.co/
 
 - name: Scandy
   smallLogoPath: /assets/sponsors/scandy.jpg
   largeLogoPath: /assets/sponsors/scandy.jpg
   description:
-  website:
+  website: https://scandy.co/welcome
 
 - name: Entrescan
   smallLogoPath: /assets/sponsors/entrescan.png
   largeLogoPath: /assets/sponsors/entrescan.png
   description:
-  website:
+  website: http://entrescan.com/
