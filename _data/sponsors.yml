@@ -75,10 +75,10 @@
   largeLogoPath: /assets/sponsors/big/lookfarlogo.png
   description: An idea acceleration company
   website: http://lookfar.com/
-  
+
 - name: GNO, Inc
-  smallLogoPath: /assets/sponsors/big/gno-inc.jpg
-  largeLogoPath: /assets/sponsors/big/gno-inc.jpg
+  smallLogoPath: /assets/sponsors/gno.jpg
+  largeLogoPath: /assets/sponsors/gno.jpg
   description:
   website: http://gnoinc.org/
 
