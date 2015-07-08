@@ -3,7 +3,11 @@
 
     .sponsors-container {
         display: -webkit-flex;
+        display: -moz-flex;
+        display: flex;
         -webkit-flex-direction: row;
+        -moz-flex-direction: row;
+        flex-direction: row;
         justify-content: center;
         margin: 40px 0px;
 
@@ -31,11 +35,21 @@
 
         .sponsors-menu {
             display: -webkit-flex;
+            display: -moz-flex;
+            display: flex;
             -webkit-flex-direction: row;
+            -moz-flex-direction: row;
+            flex-direction: row;
             -webkit-flex-wrap: wrap;
+            -moz-flex-wrap: wrap;
+            flex-wrap: wrap;
             max-width: 800px;
             justify-content: -webkit-flex-start;
+            justify-content: -moz-flex-start;
+            justify-content: flex-start;
             align-items: -webkit-flex-start;
+            align-items: -moz-flex-start;
+            align-items: flex-start;
             background: rgba(255, 255, 255, 1);
 
             .sponsor-icon {
@@ -46,8 +60,12 @@
                 text-align: center;
                 cursor: pointer;
                 display: -webkit-flex;
+                display: -moz-flex;
+                display: flex;
                 justify-content: center;
                 -webkit-flex-direction: column;
+                -moz-flex-direction: column;
+                flex-direction: column;
                 height: 100px;
 
                 &:hover {
