@@ -45,6 +45,10 @@
                 margin: 15px;
                 text-align: center;
                 cursor: pointer;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                height: 100px;
 
                 &:hover {
                     transition: background-color .5s;
