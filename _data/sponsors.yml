@@ -147,3 +147,9 @@
   largeLogoPath: /assets/sponsors/entrescan.png
   description:
   website: http://entrescan.com/
+
+- name: HitPath
+  smallLogoPath: assets/sponsors/Hitpath.png
+  largeLogoPath: assets/sponsors/Hitpath.png
+  description:
+  website: http://www.hitpath.com/
